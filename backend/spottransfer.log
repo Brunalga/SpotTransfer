@@ -1,0 +1,228 @@
+2025-10-03 20:18:17,921 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-10-03 20:18:17,921 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-03 20:18:24,146 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 20:18:24] "OPTIONS /create HTTP/1.1" 200 -
+2025-10-03 20:18:24,394 - __main__ - INFO - === NEW PLAYLIST CREATION REQUEST ===
+2025-10-03 20:18:24,394 - __main__ - INFO - Request timestamp: 2025-10-03 20:18:24.394606
+2025-10-03 20:18:24,394 - __main__ - INFO - Playlist link: https://open.spotify.com/playlist/30l9upZXtsE5lOZR0swr9l?si=b57a867c6232446a
+2025-10-03 20:18:24,394 - __main__ - INFO - Auth headers provided: Yes
+2025-10-03 20:18:24,395 - __main__ - INFO - Headers received as string, parsing as JSON...
+2025-10-03 20:18:24,395 - __main__ - ERROR - Failed to parse headers as JSON: Extra data: line 1 column 10 (char 9)
+2025-10-03 20:18:24,395 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 20:18:24] "[31m[1mPOST /create HTTP/1.1[0m" 400 -
+2025-10-03 20:18:28,116 - __main__ - INFO - === NEW PLAYLIST CREATION REQUEST ===
+2025-10-03 20:18:28,116 - __main__ - INFO - Request timestamp: 2025-10-03 20:18:28.116680
+2025-10-03 20:18:28,116 - __main__ - INFO - Playlist link: https://open.spotify.com/playlist/30l9upZXtsE5lOZR0swr9l?si=b57a867c6232446a
+2025-10-03 20:18:28,116 - __main__ - INFO - Auth headers provided: Yes
+2025-10-03 20:18:28,117 - __main__ - INFO - Headers received as string, parsing as JSON...
+2025-10-03 20:18:28,117 - __main__ - ERROR - Failed to parse headers as JSON: Extra data: line 1 column 10 (char 9)
+2025-10-03 20:18:28,117 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 20:18:28] "[31m[1mPOST /create HTTP/1.1[0m" 400 -
+2025-10-03 20:19:28,666 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 20:19:28] "OPTIONS / HTTP/1.1" 200 -
+2025-10-03 20:19:28,926 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 20:19:28] "GET / HTTP/1.1" 200 -
+2025-10-03 20:19:30,267 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 20:19:30] "OPTIONS /create HTTP/1.1" 200 -
+2025-10-03 20:19:30,571 - __main__ - INFO - === NEW PLAYLIST CREATION REQUEST ===
+2025-10-03 20:19:30,571 - __main__ - INFO - Request timestamp: 2025-10-03 20:19:30.571591
+2025-10-03 20:19:30,571 - __main__ - INFO - Playlist link: https://open.spotify.com/playlist/30l9upZXtsE5lOZR0swr9l?si=b57a867c6232446a
+2025-10-03 20:19:30,571 - __main__ - INFO - Auth headers provided: Yes
+2025-10-03 20:19:30,571 - __main__ - INFO - Headers received as string, parsing as JSON...
+2025-10-03 20:19:30,572 - __main__ - INFO - Successfully parsed headers from JSON string
+2025-10-03 20:19:30,572 - __main__ - INFO - Starting playlist creation process...
+2025-10-03 20:19:30,572 - ytm - INFO - === STARTING PLAYLIST CREATION ===
+2025-10-03 20:19:30,572 - ytm - INFO - Playlist link: https://open.spotify.com/playlist/30l9upZXtsE5lOZR0swr9l?si=b57a867c6232446a
+2025-10-03 20:19:30,572 - ytm - INFO - Converting headers to ytmusicapi format...
+2025-10-03 20:19:30,572 - ytm - INFO - Headers received as dictionary, converting to raw format...
+2025-10-03 20:19:30,572 - ytm - INFO - Converted 28 headers to raw format
+2025-10-03 20:19:30,572 - ytm - INFO - Setting up YouTube Music authentication...
+2025-10-03 20:19:30,574 - ytm - INFO - YouTube Music authentication successful
+2025-10-03 20:19:30,574 - ytm - INFO - Fetching tracks from Spotify...
+2025-10-03 20:19:30,574 - spotify - INFO - Fetching tracks from Spotify playlist: https://open.spotify.com/playlist/30l9upZXtsE5lOZR0swr9l?si=b57a867c6232446a
+2025-10-03 20:19:30,574 - spotify - INFO - Extracted playlist ID: 30l9upZXtsE5lOZR0swr9l
+2025-10-03 20:19:30,575 - spotify - INFO - Requesting Spotify access token...
+2025-10-03 20:19:30,768 - spotify - INFO - Spotify access token obtained successfully
+2025-10-03 20:19:30,769 - spotify - INFO - Fetching tracks from Spotify API...
+2025-10-03 20:19:45,472 - spotify - INFO - Successfully fetched 2885 tracks from 30 pages
+2025-10-03 20:19:45,473 - ytm - INFO - Retrieved 2885 tracks from Spotify
+2025-10-03 20:19:45,473 - ytm - INFO - Getting playlist name...
+2025-10-03 20:19:45,473 - spotify - INFO - Fetching playlist name for: https://open.spotify.com/playlist/30l9upZXtsE5lOZR0swr9l?si=b57a867c6232446a
+2025-10-03 20:19:45,473 - spotify - INFO - Extracted playlist ID: 30l9upZXtsE5lOZR0swr9l
+2025-10-03 20:19:45,473 - spotify - INFO - Requesting Spotify access token...
+2025-10-03 20:19:45,652 - spotify - INFO - Spotify access token obtained successfully
+2025-10-03 20:19:46,608 - spotify - INFO - Playlist name retrieved: All
+2025-10-03 20:19:46,609 - ytm - INFO - Playlist name: All
+2025-10-03 20:19:46,609 - ytm - INFO - Searching for tracks on YouTube Music...
+2025-10-03 20:19:46,609 - ytm - INFO - Starting search for 2885 tracks on YouTube Music
+2025-10-03 20:32:02,521 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-10-03 20:32:02,522 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-03 20:32:09,645 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 20:32:09] "OPTIONS /create HTTP/1.1" 200 -
+2025-10-03 20:32:09,905 - __main__ - INFO - === NEW PLAYLIST CREATION REQUEST ===
+2025-10-03 20:32:09,905 - __main__ - INFO - Request timestamp: 2025-10-03 20:32:09.905797
+2025-10-03 20:32:09,905 - __main__ - INFO - Playlist link: https://open.spotify.com/playlist/30l9upZXtsE5lOZR0swr9l?si=b57a867c6232446a
+2025-10-03 20:32:09,906 - __main__ - INFO - Auth headers provided: Yes
+2025-10-03 20:32:09,906 - __main__ - INFO - Headers received as string, parsing as JSON...
+2025-10-03 20:32:09,906 - __main__ - INFO - Successfully parsed headers from JSON string
+2025-10-03 20:32:09,906 - __main__ - INFO - Starting playlist creation process...
+2025-10-03 20:32:09,906 - ytm - INFO - === STARTING PLAYLIST CREATION ===
+2025-10-03 20:32:09,906 - ytm - INFO - Playlist link: https://open.spotify.com/playlist/30l9upZXtsE5lOZR0swr9l?si=b57a867c6232446a
+2025-10-03 20:32:09,906 - ytm - INFO - Converting headers to ytmusicapi format...
+2025-10-03 20:32:09,906 - ytm - INFO - Headers received as dictionary, converting to raw format...
+2025-10-03 20:32:09,906 - ytm - INFO - Converted 28 headers to raw format
+2025-10-03 20:32:09,907 - ytm - INFO - Setting up YouTube Music authentication...
+2025-10-03 20:32:09,908 - ytm - INFO - YouTube Music authentication successful
+2025-10-03 20:32:09,908 - ytm - INFO - Fetching tracks from Spotify...
+2025-10-03 20:32:09,908 - spotify - INFO - Fetching tracks from Spotify playlist: https://open.spotify.com/playlist/30l9upZXtsE5lOZR0swr9l?si=b57a867c6232446a
+2025-10-03 20:32:09,908 - spotify - INFO - Extracted playlist ID: 30l9upZXtsE5lOZR0swr9l
+2025-10-03 20:32:09,908 - spotify - INFO - Requesting Spotify access token...
+2025-10-03 20:32:10,089 - spotify - INFO - Spotify access token obtained successfully
+2025-10-03 20:32:10,090 - spotify - INFO - Fetching tracks from Spotify API...
+2025-10-03 20:32:23,375 - spotify - INFO - Successfully fetched 2885 tracks from 30 pages
+2025-10-03 20:32:23,375 - ytm - INFO - Retrieved 2885 tracks from Spotify
+2025-10-03 20:32:23,375 - ytm - INFO - Getting playlist name...
+2025-10-03 20:32:23,375 - spotify - INFO - Fetching playlist name for: https://open.spotify.com/playlist/30l9upZXtsE5lOZR0swr9l?si=b57a867c6232446a
+2025-10-03 20:32:23,375 - spotify - INFO - Extracted playlist ID: 30l9upZXtsE5lOZR0swr9l
+2025-10-03 20:32:23,375 - spotify - INFO - Requesting Spotify access token...
+2025-10-03 20:32:23,544 - spotify - INFO - Spotify access token obtained successfully
+2025-10-03 20:32:24,171 - spotify - INFO - Playlist name retrieved: All
+2025-10-03 20:32:24,172 - ytm - INFO - Playlist name: All
+2025-10-03 20:32:24,172 - ytm - INFO - Searching for tracks on YouTube Music...
+2025-10-03 20:32:24,172 - ytm - INFO - Starting search for 2885 tracks on YouTube Music
+2025-10-03 20:32:24,172 - ytm - INFO - Progress: 1/2885 tracks processed (0.0%)
+2025-10-03 20:32:24,172 - ytm - INFO - Found so far: 0 tracks, Missed: 0 tracks
+2025-10-03 20:32:24,700 - ytm - INFO - Progress: 2/2885 tracks processed (0.1%)
+2025-10-03 20:32:24,700 - ytm - INFO - Found so far: 1 tracks, Missed: 0 tracks
+2025-10-03 20:32:25,253 - ytm - INFO - Progress: 3/2885 tracks processed (0.1%)
+2025-10-03 20:32:25,253 - ytm - INFO - Found so far: 2 tracks, Missed: 0 tracks
+2025-10-03 20:32:25,849 - ytm - INFO - Progress: 4/2885 tracks processed (0.1%)
+2025-10-03 20:32:25,849 - ytm - INFO - Found so far: 3 tracks, Missed: 0 tracks
+2025-10-03 20:32:26,457 - ytm - INFO - Progress: 5/2885 tracks processed (0.2%)
+2025-10-03 20:32:26,458 - ytm - INFO - Found so far: 4 tracks, Missed: 0 tracks
+2025-10-03 20:32:53,128 - ytm - INFO - Progress: 50/2885 tracks processed (1.7%)
+2025-10-03 20:32:53,129 - ytm - INFO - Found so far: 49 tracks, Missed: 0 tracks
+2025-10-03 20:33:23,636 - ytm - INFO - Progress: 100/2885 tracks processed (3.5%)
+2025-10-03 20:33:23,636 - ytm - INFO - Found so far: 99 tracks, Missed: 0 tracks
+2025-10-03 20:33:54,038 - ytm - INFO - Progress: 150/2885 tracks processed (5.2%)
+2025-10-03 20:33:54,039 - ytm - INFO - Found so far: 149 tracks, Missed: 0 tracks
+2025-10-03 20:34:24,105 - ytm - INFO - Progress: 200/2885 tracks processed (6.9%)
+2025-10-03 20:34:24,105 - ytm - INFO - Found so far: 199 tracks, Missed: 0 tracks
+2025-10-03 20:34:54,539 - ytm - INFO - Progress: 250/2885 tracks processed (8.7%)
+2025-10-03 20:34:54,540 - ytm - INFO - Found so far: 249 tracks, Missed: 0 tracks
+2025-10-03 20:35:24,747 - ytm - INFO - Progress: 300/2885 tracks processed (10.4%)
+2025-10-03 20:35:24,748 - ytm - INFO - Found so far: 299 tracks, Missed: 0 tracks
+2025-10-03 20:35:55,780 - ytm - INFO - Progress: 350/2885 tracks processed (12.1%)
+2025-10-03 20:35:55,780 - ytm - INFO - Found so far: 349 tracks, Missed: 0 tracks
+2025-10-03 20:36:26,893 - ytm - INFO - Progress: 400/2885 tracks processed (13.9%)
+2025-10-03 20:36:26,893 - ytm - INFO - Found so far: 399 tracks, Missed: 0 tracks
+2025-10-03 20:36:57,787 - ytm - INFO - Progress: 450/2885 tracks processed (15.6%)
+2025-10-03 20:36:57,787 - ytm - INFO - Found so far: 449 tracks, Missed: 0 tracks
+2025-10-03 20:37:26,916 - ytm - INFO - Progress: 500/2885 tracks processed (17.3%)
+2025-10-03 20:37:26,916 - ytm - INFO - Found so far: 499 tracks, Missed: 0 tracks
+2025-10-03 20:37:57,793 - ytm - INFO - Progress: 550/2885 tracks processed (19.1%)
+2025-10-03 20:37:57,793 - ytm - INFO - Found so far: 549 tracks, Missed: 0 tracks
+2025-10-03 20:38:28,524 - ytm - INFO - Progress: 600/2885 tracks processed (20.8%)
+2025-10-03 20:38:28,524 - ytm - INFO - Found so far: 599 tracks, Missed: 0 tracks
+2025-10-03 20:38:57,871 - ytm - INFO - Progress: 650/2885 tracks processed (22.5%)
+2025-10-03 20:38:57,872 - ytm - INFO - Found so far: 649 tracks, Missed: 0 tracks
+2025-10-03 20:39:26,938 - ytm - INFO - Progress: 700/2885 tracks processed (24.3%)
+2025-10-03 20:39:26,938 - ytm - INFO - Found so far: 699 tracks, Missed: 0 tracks
+2025-10-03 20:39:55,441 - ytm - INFO - Progress: 750/2885 tracks processed (26.0%)
+2025-10-03 20:39:55,442 - ytm - INFO - Found so far: 749 tracks, Missed: 0 tracks
+2025-10-03 20:40:24,269 - ytm - INFO - Progress: 800/2885 tracks processed (27.7%)
+2025-10-03 20:40:24,269 - ytm - INFO - Found so far: 799 tracks, Missed: 0 tracks
+2025-10-03 20:40:53,255 - ytm - INFO - Progress: 850/2885 tracks processed (29.5%)
+2025-10-03 20:40:53,256 - ytm - INFO - Found so far: 849 tracks, Missed: 0 tracks
+2025-10-03 20:41:24,708 - ytm - INFO - Progress: 900/2885 tracks processed (31.2%)
+2025-10-03 20:41:24,708 - ytm - INFO - Found so far: 899 tracks, Missed: 0 tracks
+2025-10-03 20:41:54,882 - ytm - INFO - Progress: 950/2885 tracks processed (32.9%)
+2025-10-03 20:41:54,882 - ytm - INFO - Found so far: 949 tracks, Missed: 0 tracks
+2025-10-03 20:42:24,810 - ytm - INFO - Progress: 1000/2885 tracks processed (34.7%)
+2025-10-03 20:42:24,810 - ytm - INFO - Found so far: 999 tracks, Missed: 0 tracks
+2025-10-03 20:42:55,576 - ytm - INFO - Progress: 1050/2885 tracks processed (36.4%)
+2025-10-03 20:42:55,576 - ytm - INFO - Found so far: 1049 tracks, Missed: 0 tracks
+2025-10-03 20:43:26,134 - ytm - INFO - Progress: 1100/2885 tracks processed (38.1%)
+2025-10-03 20:43:26,134 - ytm - INFO - Found so far: 1099 tracks, Missed: 0 tracks
+2025-10-03 20:43:55,316 - ytm - INFO - Progress: 1150/2885 tracks processed (39.9%)
+2025-10-03 20:43:55,316 - ytm - INFO - Found so far: 1149 tracks, Missed: 0 tracks
+2025-10-03 20:44:25,413 - ytm - INFO - Progress: 1200/2885 tracks processed (41.6%)
+2025-10-03 20:44:25,413 - ytm - INFO - Found so far: 1199 tracks, Missed: 0 tracks
+2025-10-03 20:44:57,118 - ytm - INFO - Progress: 1250/2885 tracks processed (43.3%)
+2025-10-03 20:44:57,119 - ytm - INFO - Found so far: 1249 tracks, Missed: 0 tracks
+2025-10-03 20:45:27,519 - ytm - INFO - Progress: 1300/2885 tracks processed (45.1%)
+2025-10-03 20:45:27,519 - ytm - INFO - Found so far: 1299 tracks, Missed: 0 tracks
+2025-10-03 20:45:58,356 - ytm - INFO - Progress: 1350/2885 tracks processed (46.8%)
+2025-10-03 20:45:58,356 - ytm - INFO - Found so far: 1349 tracks, Missed: 0 tracks
+2025-10-03 20:46:27,890 - ytm - INFO - Progress: 1400/2885 tracks processed (48.5%)
+2025-10-03 20:46:27,890 - ytm - INFO - Found so far: 1399 tracks, Missed: 0 tracks
+2025-10-03 20:46:59,386 - ytm - INFO - Progress: 1450/2885 tracks processed (50.3%)
+2025-10-03 20:46:59,386 - ytm - INFO - Found so far: 1449 tracks, Missed: 0 tracks
+2025-10-03 20:47:28,793 - ytm - INFO - Progress: 1500/2885 tracks processed (52.0%)
+2025-10-03 20:47:28,793 - ytm - INFO - Found so far: 1499 tracks, Missed: 0 tracks
+2025-10-03 20:47:58,979 - ytm - INFO - Progress: 1550/2885 tracks processed (53.7%)
+2025-10-03 20:47:58,979 - ytm - INFO - Found so far: 1549 tracks, Missed: 0 tracks
+2025-10-03 20:48:28,541 - ytm - INFO - Progress: 1600/2885 tracks processed (55.5%)
+2025-10-03 20:48:28,542 - ytm - INFO - Found so far: 1599 tracks, Missed: 0 tracks
+2025-10-03 20:48:57,916 - ytm - INFO - Progress: 1650/2885 tracks processed (57.2%)
+2025-10-03 20:48:57,916 - ytm - INFO - Found so far: 1649 tracks, Missed: 0 tracks
+2025-10-03 20:49:27,480 - ytm - INFO - Progress: 1700/2885 tracks processed (58.9%)
+2025-10-03 20:49:27,480 - ytm - INFO - Found so far: 1699 tracks, Missed: 0 tracks
+2025-10-03 20:49:56,862 - ytm - INFO - Progress: 1750/2885 tracks processed (60.7%)
+2025-10-03 20:49:56,862 - ytm - INFO - Found so far: 1749 tracks, Missed: 0 tracks
+2025-10-03 20:50:26,762 - ytm - INFO - Progress: 1800/2885 tracks processed (62.4%)
+2025-10-03 20:50:26,762 - ytm - INFO - Found so far: 1799 tracks, Missed: 0 tracks
+2025-10-03 20:50:55,727 - ytm - INFO - Progress: 1850/2885 tracks processed (64.1%)
+2025-10-03 20:50:55,727 - ytm - INFO - Found so far: 1849 tracks, Missed: 0 tracks
+2025-10-03 20:51:25,596 - ytm - INFO - Progress: 1900/2885 tracks processed (65.9%)
+2025-10-03 20:51:25,596 - ytm - INFO - Found so far: 1899 tracks, Missed: 0 tracks
+2025-10-03 20:51:57,341 - ytm - INFO - Progress: 1950/2885 tracks processed (67.6%)
+2025-10-03 20:51:57,341 - ytm - INFO - Found so far: 1949 tracks, Missed: 0 tracks
+2025-10-03 20:52:28,131 - ytm - INFO - Progress: 2000/2885 tracks processed (69.3%)
+2025-10-03 20:52:28,131 - ytm - INFO - Found so far: 1999 tracks, Missed: 0 tracks
+2025-10-03 20:52:58,479 - ytm - INFO - Progress: 2050/2885 tracks processed (71.1%)
+2025-10-03 20:52:58,479 - ytm - INFO - Found so far: 2049 tracks, Missed: 0 tracks
+2025-10-03 20:53:30,069 - ytm - INFO - Progress: 2100/2885 tracks processed (72.8%)
+2025-10-03 20:53:30,069 - ytm - INFO - Found so far: 2099 tracks, Missed: 0 tracks
+2025-10-03 20:54:00,287 - ytm - INFO - Progress: 2150/2885 tracks processed (74.5%)
+2025-10-03 20:54:00,287 - ytm - INFO - Found so far: 2149 tracks, Missed: 0 tracks
+2025-10-03 20:54:30,521 - ytm - INFO - Progress: 2200/2885 tracks processed (76.3%)
+2025-10-03 20:54:30,522 - ytm - INFO - Found so far: 2199 tracks, Missed: 0 tracks
+2025-10-03 20:55:01,333 - ytm - INFO - Progress: 2250/2885 tracks processed (78.0%)
+2025-10-03 20:55:01,334 - ytm - INFO - Found so far: 2249 tracks, Missed: 0 tracks
+2025-10-03 20:55:32,642 - ytm - INFO - Progress: 2300/2885 tracks processed (79.7%)
+2025-10-03 20:55:32,643 - ytm - INFO - Found so far: 2299 tracks, Missed: 0 tracks
+2025-10-03 20:56:03,395 - ytm - INFO - Progress: 2350/2885 tracks processed (81.5%)
+2025-10-03 20:56:03,395 - ytm - INFO - Found so far: 2349 tracks, Missed: 0 tracks
+2025-10-03 20:56:33,915 - ytm - INFO - Progress: 2400/2885 tracks processed (83.2%)
+2025-10-03 20:56:33,915 - ytm - INFO - Found so far: 2399 tracks, Missed: 0 tracks
+2025-10-03 20:57:04,756 - ytm - INFO - Progress: 2450/2885 tracks processed (84.9%)
+2025-10-03 20:57:04,757 - ytm - INFO - Found so far: 2449 tracks, Missed: 0 tracks
+2025-10-03 20:57:34,692 - ytm - INFO - Progress: 2500/2885 tracks processed (86.7%)
+2025-10-03 20:57:34,693 - ytm - INFO - Found so far: 2499 tracks, Missed: 0 tracks
+2025-10-03 20:58:05,258 - ytm - INFO - Progress: 2550/2885 tracks processed (88.4%)
+2025-10-03 20:58:05,258 - ytm - INFO - Found so far: 2549 tracks, Missed: 0 tracks
+2025-10-03 20:58:36,405 - ytm - INFO - Progress: 2600/2885 tracks processed (90.1%)
+2025-10-03 20:58:36,405 - ytm - INFO - Found so far: 2599 tracks, Missed: 0 tracks
+2025-10-03 20:59:07,783 - ytm - INFO - Progress: 2650/2885 tracks processed (91.9%)
+2025-10-03 20:59:07,783 - ytm - INFO - Found so far: 2649 tracks, Missed: 0 tracks
+2025-10-03 20:59:39,186 - ytm - INFO - Progress: 2700/2885 tracks processed (93.6%)
+2025-10-03 20:59:39,186 - ytm - INFO - Found so far: 2699 tracks, Missed: 0 tracks
+2025-10-03 21:00:12,359 - ytm - INFO - Progress: 2750/2885 tracks processed (95.3%)
+2025-10-03 21:00:12,359 - ytm - INFO - Found so far: 2749 tracks, Missed: 0 tracks
+2025-10-03 21:00:43,939 - ytm - INFO - Progress: 2800/2885 tracks processed (97.1%)
+2025-10-03 21:00:43,939 - ytm - INFO - Found so far: 2799 tracks, Missed: 0 tracks
+2025-10-03 21:01:14,355 - ytm - INFO - Progress: 2850/2885 tracks processed (98.8%)
+2025-10-03 21:01:14,355 - ytm - INFO - Found so far: 2849 tracks, Missed: 0 tracks
+2025-10-03 21:01:33,957 - ytm - INFO - Progress: 2881/2885 tracks processed (99.9%)
+2025-10-03 21:01:33,957 - ytm - INFO - Found so far: 2880 tracks, Missed: 0 tracks
+2025-10-03 21:01:34,467 - ytm - INFO - Progress: 2882/2885 tracks processed (99.9%)
+2025-10-03 21:01:34,468 - ytm - INFO - Found so far: 2881 tracks, Missed: 0 tracks
+2025-10-03 21:01:35,111 - ytm - INFO - Progress: 2883/2885 tracks processed (99.9%)
+2025-10-03 21:01:35,111 - ytm - INFO - Found so far: 2882 tracks, Missed: 0 tracks
+2025-10-03 21:01:35,599 - ytm - INFO - Progress: 2884/2885 tracks processed (100.0%)
+2025-10-03 21:01:35,599 - ytm - INFO - Found so far: 2883 tracks, Missed: 0 tracks
+2025-10-03 21:01:36,256 - ytm - INFO - Progress: 2885/2885 tracks processed (100.0%)
+2025-10-03 21:01:36,257 - ytm - INFO - Found so far: 2884 tracks, Missed: 0 tracks
+2025-10-03 21:01:37,033 - ytm - INFO - Search completed in 1752.86 seconds
+2025-10-03 21:01:37,033 - ytm - INFO - Found 2885/2885 songs on YouTube Music
+2025-10-03 21:01:37,033 - ytm - INFO - Missed tracks: 0
+2025-10-03 21:01:37,033 - ytm - INFO - Creating playlist 'All' with 2885 tracks...
+2025-10-03 21:01:39,099 - ytm - INFO - Playlist created successfully! Playlist ID: PLgvaJMeh5cJS2uaMv8Xb5qAEE6mw7jc7c
+2025-10-03 21:01:39,100 - __main__ - INFO - Playlist created successfully! Missed tracks: 0
+2025-10-03 21:01:39,101 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2025 21:01:39] "POST /create HTTP/1.1" 200 -
